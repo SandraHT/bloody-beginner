@@ -6,20 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHT - Ihre Marketingberatung</title>
     <style>
+        body {
+        font-family:Roboto light;
+        }
         .heading {
-            background-image: "Website/Wirbel_final.png";
+            background-image: url("Wirbel_final.png") ;
             background-color: #000000;
             background-repeat: no-repeat;
-            background-position: center; 
-            background-size: cover;
-            text-align: left
+            background-position: top center; 
+            background-size: cover ;
+            min-height: 700px;
+            text-align: left;
             }
         .intro {
-            background-image: "Website/Background_Container_weiß.jpg";
+            background-image: url("Background_Container_weiss.png");
             background-repeat: no-repeat;
             background-size: cover;
             background-repeat: no-repeat;
-            text-align: center
+            background-position: top center; 
+            text-align: center;
+            min-height: 400px;
             }
         .service {
             text-align: center
@@ -35,32 +41,40 @@
             margin: 0; /* Remove margins */
         }
         .one-third {
-            text-align: left
+            text-align: left;
         }
         .one-half {
-            text-align: left
+            text-align: left;
             }
         .btn-red {
             background-color: #ec0f0f;
             border-color: #ec0f0f;
             color: #fff;
+            display: inline-block;
+            font-weight: 400;
+            color: #fff;
+            text-align: center;
+            vertical-align: middle;
+            border: 1px solid transparent;
+            padding: .375rem .75rem;
+            font-size: 1.06rem;
+            line-height: 1.5;
+            border-radius: 0;
         }
-        .btn {
-        display: inline-block;
-        font-weight: 400;
-        color: #444;
-        text-align: center;
-        vertical-align: middle;
-        background-color: transparent;
-        border: 1px solid transparent;
-        border-top-color: transparent;
-        border-right-color: transparent;
-        border-bottom-color: transparent;
-        border-left-color: transparent;
-        padding: .375rem .75rem;
-        font-size: 1.06rem;
-        line-height: 1.5;
-        border-radius: 0;
+        .btn-red a:link {
+        color: #fff;
+        }
+      /* visited link */
+      .btn-red a:visited {
+        color: #fff;
+        }
+      /* mouse over link */
+      .btn-red a:hover {
+        color: #8ebf42;
+        }
+      /* selected link */
+      .btn-red a:active {
+        color: #800000;
         }
     </style>
 </head>
@@ -90,7 +104,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non. Odio possimus expedita beatae placeat, harum numquam enim pariatur?
         </p>
     </div>
-    <div class="btn btn-red">  
+    <div class="btn-red">  
         <a href="#part_6" target="_blank">Kontakt </a>
     </div>
     <div class="service" id="part_3"> 
@@ -154,7 +168,7 @@
             <ul id= "footer menu">
                 <li> <a href="http://impressum.html">Impressum</a> </li>
                 <li> <a href="http://impressum.html">Datenschutz</a> </li>
-                <li> <a href="http://impressum.html">Copywrite</a> </li>
+                <li> <a href="http://impressum.html">Copyright</a> </li>
             </ul>
         </div>
     </footer>
