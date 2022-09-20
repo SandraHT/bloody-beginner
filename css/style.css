@@ -1,0 +1,72 @@
+body {
+font-family:Roboto light;
+}
+.heading {
+    background-image: url("Wirbel_final.png") ;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-size: cover ;
+    min-height: 700px;
+    text-align: left;
+    }
+.intro {
+    background-image: url("Background_Container_weiss.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center; 
+    text-align: center;
+    min-height: 400px;
+    }
+.service {
+    text-align: center
+    }
+.vita {
+    background-color: black;
+    background-size: cover;
+    text-align: left
+    }
+.ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+.one-third {
+    text-align: left;
+    width: 33%;
+    
+}
+.one-half {
+    text-align: left;
+    }
+.btn-red {
+    background-color: #ec0f0f;
+    border-color: #ec0f0f;
+    color: #fff;
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1.06rem;
+    line-height: 1.5;
+    border-radius: 0;
+}
+.btn-red a:link {
+color: #fff;
+}
+/* visited link */
+.btn-red a:visited {
+color: #fff;
+}
+/* mouse over link */
+.btn-red a:hover {
+color: #8ebf42;
+}
+/* selected link */
+.btn-red a:active {
+color: #800000;
+}
