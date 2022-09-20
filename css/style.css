@@ -1,8 +1,26 @@
 body {
 font-family:Roboto light;
 }
-.heading {
-    background-image: url("Wirbel_final.png") ;
+.header_index {
+    background-image: url("../images/Wirbel_final.png") ;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-size: cover ;
+    min-height: 700px;
+    text-align: left;
+    }
+.header_service {
+    background-image: url("../images/zebra.jpg") ;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-size: cover ;
+    min-height: 700px;
+    text-align: left;
+    }
+.header_impressum {
+    background-image: url("../images/Glasmuster.jpg") ;
     background-color: #000000;
     background-repeat: no-repeat;
     background-position: top center; 
