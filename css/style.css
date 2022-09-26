@@ -1,5 +1,5 @@
 body {
-font-family:Roboto light;
+    font-family: 'Roboto Light 300', sans-serif;
 }
 .header_index {
     background-image: url("../images/Wirbel_final.png") ;
@@ -44,11 +44,58 @@ font-family:Roboto light;
     background-size: cover;
     text-align: left;
     }
-.ul.no-bullets {
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
+ul.no-bullets {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
 }
+li {
+float: left;
+}
+.link-white a:link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+.link-red a:link {
+    display: block;
+    color: #ec0f0f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+.visited-white a:visited {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.visited-red a:visited {
+    display: block;
+    color: #ec0f0f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: none;
+}    
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Roboto Light 300', sans-serif;
+    background-color: black;
+}
+footer {
+    position: bottom center;
+    width: 100%;
+    font-family: 'Roboto Light 300', sans-serif;
+   }
 div {
     display: inline-block;
     width: 1200px;
@@ -74,13 +121,18 @@ div {
     padding: 0px 10px;
     color:white;
     }
+#part_6 {
+    text-align: left;
+    padding: 0px 10px;
+    color:black;
+    }
 .btn-red {
     width: 80px;
     background-color: #ec0f0f;
     border-color: #ec0f0f;
     color: #fff;
     display: inline-block;
-    font-weight: 400;
+    font-family: 'Roboto Medium 500', sans-serif ;
     color: #fff;
     text-align: center;
     vertical-align: middle;
@@ -107,14 +159,14 @@ color: #8ebf42;
 color: #800000;
 }
 .h1 {
-    font-family:Roboto;
+    font-family: 'Roboto Medium 500', sans-serif ;
     font-size:40px;
     color:red;
-    padding: 20px 0px;
+    padding: 150px .75rem;
 }
 .h2, h3, h4, h5, h6 {
     color: #ec0f0f;
-    font-family:Roboto;
+    font-family: 'Roboto Medium 500', sans-serif;
     font-size:20px;
     padding: 20px 0px;
 }
