@@ -7,7 +7,7 @@ font-family:Roboto light;
     background-repeat: no-repeat;
     background-position: top center; 
     background-size: cover ;
-    min-height: 700px;
+    min-height: 400px;
     text-align: left;
     }
 .header_service {
@@ -16,7 +16,7 @@ font-family:Roboto light;
     background-repeat: no-repeat;
     background-position: top center; 
     background-size: cover ;
-    min-height: 700px;
+    min-height: 200px;
     text-align: left;
     }
 .header_impressum {
@@ -24,41 +24,58 @@ font-family:Roboto light;
     background-color: #000000;
     background-repeat: no-repeat;
     background-position: top center; 
-    background-size: cover ;
-    min-height: 700px;
+    background-size: contain ;
+    min-height: 500px;
     text-align: left;
     }
 .intro {
-    background-image: url("Background_Container_weiss.png");
+    background-image: url("../images/Background_Container_weiss.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: top center; 
-    text-align: center;
-    min-height: 400px;
+    text-align: left;
+    min-height: 200px;
     }
 .service {
-    text-align: center
+    text-align: left;
     }
 .vita {
     background-color: black;
     background-size: cover;
-    text-align: left
+    text-align: left;
     }
 .ul.no-bullets {
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
 }
+div {
+    display: inline-block;
+    width: 1200px;
+    }
 .one-third {
     text-align: left;
-    width: 33%;
-    
-}
+    width: 30%;
+    padding: 0px 10px;
+    }
+.two-third {
+    text-align: left;
+    width: 66%;
+    padding: 0px 10px;
+    }
 .one-half {
     text-align: left;
+    width: 50%;
+    padding: 0px 10px;
+    }
+#part_5 {
+    background-color:black;
+    text-align: left;
+    padding: 0px 10px;
+    color:white;
     }
 .btn-red {
+    width: 80px;
     background-color: #ec0f0f;
     border-color: #ec0f0f;
     color: #fff;
@@ -72,6 +89,7 @@ font-family:Roboto light;
     font-size: 1.06rem;
     line-height: 1.5;
     border-radius: 0;
+    margin: 10px 10px 10px 10px;
 }
 .btn-red a:link {
 color: #fff;
@@ -87,4 +105,22 @@ color: #8ebf42;
 /* selected link */
 .btn-red a:active {
 color: #800000;
+}
+.h1 {
+    font-family:Roboto;
+    font-size:40px;
+    color:red;
+    padding: 20px 0px;
+}
+.h2, h3, h4, h5, h6 {
+    color: #ec0f0f;
+    font-family:Roboto;
+    font-size:20px;
+    padding: 20px 0px;
+}
+.hr-red {
+    color: red;
+}
+img {
+    max-width: 100%;
 }
