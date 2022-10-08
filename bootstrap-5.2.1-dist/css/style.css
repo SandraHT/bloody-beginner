@@ -1,0 +1,185 @@
+body {
+    font-family: 'Roboto Light 300', sans-serif;
+}
+.header_index {
+    background-image: url("../images/Wirbel_final.png") ;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-size: cover ;
+    min-height: 400px;
+    text-align: left;
+    }
+.header_service {
+    background-image: url("../images/zebra.jpg") ;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-size: cover ;
+    min-height: 200px;
+    text-align: left;
+    }
+.header_impressum {
+    background-image: url("../images/Glasmuster.jpg") ;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-size: contain ;
+    min-height: 500px;
+    text-align: left;
+    }
+.intro {
+    background-image: url("../images/Background_Container_weiss.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center; 
+    text-align: left;
+    min-height: 200px;
+    }
+.service {
+    text-align: left;
+    }
+.vita {
+    background-color: black;
+    background-size: cover;
+    text-align: left;
+    }
+.no-bullets {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+.nav-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Roboto Light 300', sans-serif;
+    background-color: black;
+    }
+.nav-top li {
+    float: left;
+}
+footer {
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    font-family: 'Roboto Light 300', sans-serif;
+   }
+.nav-footer li {
+    float: center;
+    }
+.socialmedia {
+    position: absolute;
+    top: 0;
+    right: 0;
+    }
+.link-white a:link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+.link-red a:link {
+    display: block;
+    color: #ec0f0f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+.visited-white a:visited {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.visited-red a:visited {
+    display: block;
+    color: #ec0f0f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: none;
+}    
+.one-third {
+    text-align: left;
+    width: 30%;
+    padding: 0px 10px;
+    }
+.two-third {
+    text-align: left;
+    width: 66%;
+    padding: 0px 10px;
+    }
+.one-half {
+    text-align: left;
+    width: 50%;
+    padding: 0px 10px;
+    }
+#part_5 {
+    background-color:black;
+    text-align: left;
+    padding: 0px 10px;
+    color:white;
+    }
+#part_6 {
+    text-align: left;
+    padding: 0px 10px;
+    color:black;
+    }
+.btn-red {
+    width: 80px;
+    background-color: #ec0f0f;
+    border-color: #ec0f0f;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Roboto Medium 500', sans-serif ;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1.06rem;
+    line-height: 1.5;
+    border-radius: 0;
+    margin: 10px 10px 10px 10px;
+}
+.btn-red a:link {
+color: #fff;
+}
+/* visited link */
+.btn-red a:visited {
+color: #fff;
+}
+/* mouse over link */
+.btn-red a:hover {
+color: #8ebf42;
+}
+/* selected link */
+.btn-red a:active {
+color: #800000;
+}
+.h1 {
+    font-family: 'Roboto Medium 500', sans-serif ;
+    font-size:40px;
+    color:red;
+    padding: 150px .75rem;
+}
+.h2, h3, h4, h5, h6 {
+    color: #ec0f0f;
+    font-family: 'Roboto Medium 500', sans-serif;
+    font-size:20px;
+    padding: 20px 0px;
+}
+.hr-red {
+    color: red;
+}
+img {
+    max-width: 100%;
+}

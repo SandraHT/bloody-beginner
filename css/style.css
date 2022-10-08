@@ -1,6 +1,13 @@
 body {
     font-family: 'Roboto Light 300', sans-serif;
 }
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
 .header_index {
     background-image: url("../images/Wirbel_final.png") ;
     background-color: #000000;
@@ -39,19 +46,38 @@ body {
 .service {
     text-align: left;
     }
-.vita {
+.container-fluid-vita {
+    height:100vh;
     background-color: black;
     background-size: cover;
     text-align: left;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-gap: 20px 10px; 
+    justify-items: start;
     }
-ul.no-bullets {
-    list-style-type: none; 
-    padding: 0; 
-    margin: 0; 
+.navbar-nav {
+    font-family: 'Roboto Light 300', sans-serif;
+    background-color: black;
 }
-li {
-float: left;
+.nav-top li {
+    float: left;
 }
+footer {
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    font-family: 'Roboto Light 300', sans-serif;
+   }
+.nav-footer li {
+    float: center;
+    }
+.socialmedia {
+    position: absolute;
+    top: 0;
+    right: 0;
+    }
 .link-white a:link {
     display: block;
     color: white;
@@ -84,22 +110,6 @@ a:hover {
     color: red;
     text-decoration: none;
 }    
-nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    font-family: 'Roboto Light 300', sans-serif;
-    background-color: black;
-}
-footer {
-    position: bottom center;
-    width: 100%;
-    font-family: 'Roboto Light 300', sans-serif;
-   }
-div {
-    display: inline-block;
-    width: 1200px;
-    }
 .one-third {
     text-align: left;
     width: 30%;
@@ -128,7 +138,7 @@ div {
     }
 .btn-red {
     width: 80px;
-    background-color: #ec0f0f;
+    color: #ec0f0f;
     border-color: #ec0f0f;
     color: #fff;
     display: inline-block;
@@ -142,6 +152,12 @@ div {
     line-height: 1.5;
     border-radius: 0;
     margin: 10px 10px 10px 10px;
+}
+.btn-red-right {
+    float:right;
+}
+.btn-red-left {
+    float:left;
 }
 .btn-red a:link {
 color: #fff;
@@ -175,4 +191,7 @@ color: #800000;
 }
 img {
     max-width: 100%;
+}
+.card {
+width:300px;
 }
