@@ -9,31 +9,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100;1,500;1,700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <header class="header_index" id="part_1">
         <div class="container-fluid"> 
-            <nav class="navbar navbar-nav navbar-expand-sd bg-black navbar-dark fixed-top">
-                <ul class="nav no-bullets link-white visited-white" id="primary menu">
-                    <li class="nav-item"><a class="nav-link active" href="http://index.html">home</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="http://service.html">service</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="#part_4">referenzen</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="#part_5">vita</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="#part_6">kontakt</a>
-                    </li>   
-                </ul>
-                <div class="socialmedia nav">
-                    <a class="navbar-brand" href="https://de.linkedin.com"><img src="images/linkedin_rot.png" width="20" height="20px" alt="Link zu LinkedIn Profil"></a>
-                    <a class="navbar-brand" href="https://www.xing.com" target="_blank"><img src="images/xing_rot.png" width="20" height="20px" alt="Link zu Xing Profil"></a>
+            <nav class="navbar navbar-expand-sm bg-black navbar-dark">
+                <div class="container-fluid">
+                            <ul class="navbar-nav no-bullets link-white visited-white nav link hover" id="primary menu">
+                                <li class="nav-item"><a class="nav-link active" href="http://index.html">home</a>
+                                </li>
+                                <li class="nav-item"><a class="nav link" href="http://service.html">service</a>
+                                </li>
+                                <li class="nav-item"><a class="nav link" href="#part_4">referenzen</a>
+                                </li>
+                                <li class="nav-item"><a class="nav link" href="#part_5">vita</a>
+                                </li>
+                                <li class="nav-item"><a class="nav link" href="#part_6">kontakt</a>
+                                </li>   
+                            </ul>
                 </div>
+                    <div class="socialmedia nav">
+                              <a class="navbar-brand" href="https://de.linkedin.com"><img src="images/linkedin_rot.png" width="20" height="20px" alt="Link zu LinkedIn Profil"></a>
+                            <a class="navbar-brand" href="https://www.xing.com" target="_blank"><img src="images/xing_rot.png" width="20" height="20px" alt="Link zu Xing Profil"></a>
+                    </div>
             </nav>
         </div> 
-        <h1 class="h1"><font color="white"> POWERFUL </font> <br/> MARKETING SERVICE <br/> <font color="white"> FOR YOUR BUSINESS </font></h1>
+        <h1 class="h1-header"><font color="white"> POWERFUL </font> <br/> MARKETING SERVICE <br/> <font color="white"> FOR YOUR BUSINESS </font></h1>
     </header>
     <section class="intro container-fluid" id="part_2"> 
         <h2 class="h2">SHT - der richtige Marketing-Partner für Sie</h2>
@@ -50,25 +53,50 @@
             <br> 
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non. Odio possimus expedita beatae placeat, harum numquam enim pariatur?
             </p>
+            <button type="button" class="btn btn-danger">Kontakt</button> 
         </div>
-                <a href="#part_6" class="btn-red">Kontakt</a>
     </section>
     <section class="service  container-fluid" id="part_3"> 
-            <div class="row">
-            <img class="col-sm-6" src="images/Blatt_rot.jpg" width="50%" alt="Das ist ein Platzhalter für einen Slider mit dem Bild als Hintergrund">
-            <h2 class="h2 col-sm-6">Marketingservices one-stop</h2>
-            <div class="row">
-                <p class="col-sm-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non. Odio possimus expedita beatae placeat, harum numquam enim pariatur? Iste sequi quaerat totam repellat ex nobis eos?
+        <div class="row">
+            <div class="col-sm-4">
+                <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="http://placeimg.com/640/480/tech" alt="Das ist ein Platzhalter für das Tech-Bild" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placeimg.com/640/480/nature" alt="Das ist ein Platzhalter für das Nature-Bild" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placeimg.com/640/480/people" alt="Das ist ein Platzhalter für das People-Bild" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placeimg.com/640/480/arch" alt="Das ist ein Platzhalter für das Architecture-Bild" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placeimg.com/640/480/animals" alt="Das ist ein Platzhalter für das Tier-Bild" class="d-block" style="width:100%">
+                        </div>
+                    </div>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="5"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <h2 class="h2"> Marketingservices one-stop</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non. Odio possimus expedita beatae placeat, harum numquam enim pariatur? Iste sequi quaerat totam repellat ex nobis eos?
                 <br>
                 <br>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non. Odio possimus expedita beatae placeat, harum numquam enim pariatur? Iste sequi quaerat totam repellat ex nobis eos?
                 </p>
+                <button type="button" class="btn btn-danger">Mehr Infos</button> 
             </div>
             </div>
-        <div class="row">
-            <div class="col-sm">
-            </div>
-            <a href="http://service.html" target="_blank" class="btn-red col-sm-1">Kontakt</a>
         </div>
     </section>
     <section class="container-fluid" id="part_4">
@@ -93,64 +121,81 @@
             <div class="card col-sm-4">
                 <img class="card-img-top" src="https://picsum.photos/300/200" alt="Logo Referenz3">
                 <div class="card-body">
-                  <h4 class="card-title">Referenz 3</h4>
-                  <p class="card-text">Trade show organizing, Web Design, Social Media.</p>
+                    <h4 class="card-title">Referenz 3</h4>
+                    <p class="card-text">Trade show organizing, Web Design, Social Media.
+                    </p>
+                </div>
+        </div>
+            <div class="row">
+                <div class="col-sm-11">
+                </div>
+                <button type="button" class="col-sm-1 btn btn-danger">Kontakt</button> 
                 </div>
             </div>
-        </div>
-        <a href="#part_6" class="btn-red">Kontakt</a>
     </section>
     <section class="container-fluid-vita container-fluid" id="part_5">
         <div class="row">
             <h2 class="h2 col-sm-12">Vita</h2>
         </div>
         <div class="row">
-            <p class="col-sm-8"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non.
-            <br>
-            <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non.
-            <br>
-            <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non.
-            <br>
-            <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non.
-            </p>
-            <img class="col-sm-4" src="images/Foto_Sandra.jpg" alt="Profilbild der Person">
-        </div>
-        <div class="row">
-            <div class="col-sm">
+            <img class="col-sm-3 float-end img-fluid" src="images/Foto_Sandra.jpg" alt="Profilbild der Person">
+            <div class="col-sm-1">
             </div>
-            <a href="#part_6" class="col-sm-1 btn-red">Kontakt</a>
+            <div class="col-sm-8">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non.
+                <br>
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non.
+                <br>
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non.
+                <br>
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quibusdam repudiandae veritatis non.
+                </p>
+                <button type="button" class="btn btn-danger">Kontakt</button> 
+            </div> 
         </div>
     </section>
     <section>
-        <div class="container-fluid one-half no-bullets" id="part_6"> 
-            <h2 class="h2">Interesse?</h2>
-            <p>
-                Habe ich Ihr Interesse geweckt? Dann freue ich mich über Ihre Kontaktaufnahme. Ob als Projektarbeit oder dauerhafte Unterstützung, ich biete individuelle Beratung und Umsetzung passend für Ihre Herausforderung an.
-                <br>
-                <br>
-                Am besten erreichen Sie mich online und ich melde mich zeitnah bei Ihnen zurück.
-                <br>
-                <br>
-                Hier meine Kontaktmöglichkeiten: 
-            </p>
-            <a href="https://de.linkedin.com"><img src="images/linkedin_rot.png" width="20" height="20" alt="Link zu LinkedIn Profil"></a>
-            <a href="https://www.xing.com" target="_blank"><img src="images/xing_rot.png" width="20" height="20" alt="Link zu Xing Profil"></a>
+        <div class="container-fluid no-bullets" id="part_6"> 
+            <div class="row">
+                <div class="col-sm-1">
+                </div>     
+                <h2 class="h2 col-sm-11">Interesse?</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-1">
+                </div>     
+                <div class="col-sm-5">
+                    <p> Habe ich Ihr Interesse geweckt? Dann freue ich mich über Ihre Kontaktaufnahme. Ob als Projektarbeit oder dauerhafte Unterstützung, ich biete individuelle Beratung und Umsetzung passend für Ihre Herausforderung an.
+                    <br>
+                    <br>
+                    Am besten erreichen Sie mich online und ich melde mich zeitnah bei Ihnen zurück.
+                    </p>
+                </div>
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-4">
+                    <p> Hier meine Kontaktmöglichkeiten:</p>
+                    <a href="https://de.linkedin.com"><img src="images/linkedin_rot.png" width="20" height="20" alt="Link zu LinkedIn Profil"></a>
+                    <a href="https://www.xing.com" target="_blank"><img src="images/xing_rot.png" width="20" height="20" alt="Link zu Xing Profil"></a>
+                    </div>
+                <div class="col-sm-1">
+                </div>
+            </div>
         </div>
     </section>
-    <footer class="container-fluid">    
-        <nav class="nav-footer">
-            <ul id= "footer menu" class="footer li link-red no-bullets visited-red">
-                <li> <a href="http://impressum.html">Impressum</a> </li>
-                <li> <a href="http://impressum.html">Datenschutz</a> </li>
-                <li> <a href="http://impressum.html">Copyright</a> </li>
+    <footer class="container container-fluid">    
+        <nav class="navbar navbar-expand-sm justify-content-center">
+            <ul class="navbar-nav li link-red no-bullets visited-red">
+                <li class="nav-item"> <a href="http://impressum.html">Impressum</a> </li>
+                <li class="nav-item"> <a href="http://impressum.html">Datenschutz</a> </li>
+                <li class="nav-item"> <a href="http://impressum.html">Copyright</a> </li>
             </ul>
         </nav>
     </footer>
-    <script src="js/bootstrap.js"></script>
-</body>
+   </body>
 </html>
 
 

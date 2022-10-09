@@ -57,19 +57,15 @@ body {
     font-family: 'Roboto Light 300', sans-serif;
     background-color: black;
     }
-.nav-top li {
+.nav-link active {
     float: left;
+    background-color: #ec0f0f transparent
 }
-footer {
-    top: 0;
-    left: 50%;
-    right: 0;
-    bottom: 0;
-    font-family: 'Roboto Light 300', sans-serif;
-   }
-.nav-footer li {
-    float: center;
-    }
+.nav link hover {
+    background-color: none;
+    color: red;
+    text-decoration: none;
+}  
 .socialmedia {
     position: absolute;
     top: 0;
@@ -77,7 +73,7 @@ footer {
     }
 .link-white a:link {
     display: block;
-    color: white;
+    color: #ec0f0f;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -102,26 +98,7 @@ footer {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-a:hover {
-    color: red;
-    text-decoration: none;
-}    
-.one-third {
-    text-align: left;
-    width: 30%;
-    padding: 0px 10px;
-    }
-.two-third {
-    text-align: left;
-    width: 66%;
-    padding: 0px 10px;
-    }
-.one-half {
-    text-align: left;
-    width: 50%;
-    padding: 0px 10px;
-    }
+} 
 #part_5 {
     background-color:black;
     text-align: left;
@@ -133,23 +110,6 @@ a:hover {
     padding: 0px 10px;
     color:black;
     }
-.btn-red {
-    width: 80px;
-    background-color: #ec0f0f;
-    border-color: #ec0f0f;
-    color: #fff;
-    display: inline-block;
-    font-family: 'Roboto Medium 500', sans-serif ;
-    color: #fff;
-    text-align: center;
-    vertical-align: middle;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1.06rem;
-    line-height: 1.5;
-    border-radius: 0;
-    margin: 10px 10px 10px 10px;
-}
 .btn-red a:link {
 color: #fff;
 }
@@ -163,12 +123,12 @@ color: #8ebf42;
 }
 /* selected link */
 .btn-red a:active {
-color: #800000;
+color: #ec0f0f;
 }
-.h1 {
+.h1-header {
     font-family: 'Roboto Medium 500', sans-serif ;
     font-size:40px;
-    color:red;
+    color:#ec0f0f;
     padding: 150px .75rem;
 }
 .h2, h3, h4, h5, h6 {
@@ -178,7 +138,7 @@ color: #800000;
     padding: 20px 0px;
 }
 .hr-red {
-    color: red;
+    color: #ec0f0f;
 }
 img {
     max-width: 100%;
