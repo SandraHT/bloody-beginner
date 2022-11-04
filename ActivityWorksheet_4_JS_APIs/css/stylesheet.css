@@ -1,0 +1,18 @@
+.card-sh {
+    text-align: center;
+    padding-top: 1em;
+}
+.people {
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+header {
+    text-align: center;
+}
+.body-sh {
+    background-color: #e5e5e5;
+}
+.card-body {
+    color: rgb(156, 152, 152);
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="people"></ul>
+    <script>
+        varxhhtp= newXMLHTTPRequest (); 
+        xhttp.onreadystatechange=function () {
+            if (this.readyState == 4 && this.status == 200) {
+            var response = JSON_parse (xhttp.responseText);
+            var people = response.people; 
+            var output ='';
+            for (var i = 0; i<people.length;i++){
+                output+='<li>'+people [i].name+'</li>';
+            }
+            document.getElementByID ('people').innerHTML = output;
+        }
+        xhttp.open ("GET", "people.json", true);
+        xhttp.send();
+    </script>
+</body>
+</html>
